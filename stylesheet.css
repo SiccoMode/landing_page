@@ -1,5 +1,10 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    border: solid 1px red;
+}
 .header{
     color: white;
+    background-color: #1f2937;
 }
 
 .footer{
@@ -9,4 +14,65 @@
 .hero{
     background-color: #1f2937;
     width: 100vh;
+}
+
+h1{
+    color: #f9FAf8;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.hero-image{
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    
+}
+.navbar{
+    display: flex;
+}
+.header-logo{
+    font-size: 24px;
+    color: #f9FAf8;
+    font-weight: bold;
+}
+
+.navbaritem{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-three{
+    background-color: #e5e7eb;
+
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.citation{
+    font-weight: bold;
+    font-style: normal;
 }
